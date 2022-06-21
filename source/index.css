@@ -1,0 +1,37 @@
+@font-face {
+    font-family:ClickyBold;
+    src:url("./fonts/static/Montserrat-ExtraBold.ttf");
+}
+@font-face {
+    font-family:ClickyReg;
+    src:url("./fonts/static/Montserrat-Regular.ttf");
+}
+html {
+    background-color: black;
+}
+.container {
+    padding-top: 8rem;
+    text-align: center;
+    margin: auto;
+    color:white;
+}
+#myLabel {
+    font-family: ClickyBold;
+}
+#myText {
+    font-family: ClickyReg;
+}
+#myComments {
+    font-family: ClickyBold;
+}
+#myButton {
+    background-color: orange;
+    padding: 15px 32px;
+
+    border-width: 4px;
+    border-color: #ffcc99;
+    border-radius: 12px;
+    
+    font-family: ClickyReg;
+    font-size: 21px;
+}
