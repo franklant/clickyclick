@@ -33,7 +33,7 @@ button.onclick = function() {
         button.innerHTML = "HAHAHAHA";
     } else if (amount_clicked > 100 && amount_clicked < 180) {
         button.innerHTML = "??????";
-    } else if (amount_clicked == 180) {
+    } else if (amount_clicked >= 180) {
         button.innerHTML = "......";
     }
 
