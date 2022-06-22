@@ -34,7 +34,7 @@ button.onclick = function() {
     } else if (amount_clicked > 100 && amount_clicked < 180) {
         button.innerHTML = "??????";
     } else if (amount_clicked >= 180) {
-        button.innerHTML = "......";
+        button.innerHTML = "....ERR....";
     }
 
     //Commentary.
